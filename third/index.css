@@ -1,0 +1,156 @@
+.container {
+  margin: auto;
+  margin-top: 100px;
+  max-width: 600px;
+  height: 400px;
+  box-shadow: 2px 2px 5px #978d8db6;
+  border-radius: 25px;
+}
+
+.results {
+  display: inline-block;
+  width: 50%;
+  height: 97.5%;
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 25px;
+  font-family: Hanken Grotesk, Roboto, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.results .title {
+  color: rgba(255, 255, 255, 0.678);
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+.percentage {
+  font-family: Hanken Grotesk, Roboto, sans-serif;
+  width: 150px;
+  height: 140px;
+  border-radius: 70px;
+  margin-left: 25%;
+  margin-top: 10%;
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.grade {
+  font-family: Hanken Grotesk, Roboto, sans-serif;
+  font-size: 50px;
+  margin: 0px;
+  padding-top: 20%;
+  color: white;
+}
+
+.over {
+  font-family: Hanken Grotesk, Roboto, sans-serif;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(253, 250, 250, 0.479);
+}
+
+.message {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  margin-top: 35px;
+}
+
+.description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: rgba(255, 255, 255, 0.664);
+}
+
+.summary {
+  display: inline-table;
+  width: 48%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.results,
+.summary {
+  vertical-align: top;
+}
+
+.summary-title {
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 600;
+  color: rgba(39, 38, 36, 0.747);
+}
+
+.items {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 10px;
+}
+
+img {
+  display: inline-block;
+  top: 50%;
+  bottom: 50%;
+  margin-left: 5px;
+}
+
+label {
+  margin-left: 10px;
+  font-family: Roboto;
+}
+
+.count {
+  display: inline-block;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 35%;
+  position: absolute;
+  font-family: Roboto;
+  right: 30%;
+  text-align: end;
+}
+
+span {
+  font-family: Roboto;
+  color: rgba(68, 63, 63, 0.719);
+}
+
+.reaction{
+  background-color: rgba(255, 0, 0, 0.075);
+}
+.memory{
+  background-color: rgba(255, 255, 0, 0.075);
+}
+.verbal{
+  background-color: rgba(0, 128, 0, 0.075);
+}
+.visual{
+  background-color: rgba(1, 5, 250, 0.075);
+}
+
+.continue{
+  font-size: 20px;
+  font-family: Roboto;
+  border-radius: 25px;
+  width: 250px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 27%;
+  right: 29.5%;
+  border:none;
+  color: white;
+  background-color: hsla(240, 61%, 16%, 0.877);
+  cursor: pointer;
+}
