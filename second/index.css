@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.content {
+  margin: auto;
+  margin-top: 5%;
+  max-width: 300px;
+  height: 470px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.qr-code img{
+  border-radius: 15px;
+  max-width: 93%;
+  margin: 10px 10px 0px 10px;
+}
+
+.title {
+  display: block;
+  justify-content: center;
+  text-align:center;
+  font-size: 19px;
+  font-weight:700;
+  font-family: Roboto;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.discription{
+  display: block;
+  justify-content: center;
+  text-align:center;
+  opacity: 0.5;
+  font-size: 15px;
+  font-family: Roboto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
